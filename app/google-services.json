@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "622434275854",
+    "firebase_url": "https://bbank-cac3d.firebaseio.com",
+    "project_id": "bbank-cac3d",
+    "storage_bucket": "bbank-cac3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622434275854:android:b48ed0a7fca88883",
+        "android_client_info": {
+          "package_name": "com.circle.prana.bb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622434275854-f6s5uk4aje1hhjf4ppch35gnab8227g3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.circle.prana.bb",
+            "certificate_hash": "5b9ead59489027b5c32b3bfefae7cc6284ebef29"
+          }
+        },
+        {
+          "client_id": "622434275854-6r5fsl3j5on2tk5eb5in87049h3alstn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "622434275854-6r5fsl3j5on2tk5eb5in87049h3alstn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO-IndGTLu8EJkoyaqd4fbDaVycHkqfCk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622434275854-6r5fsl3j5on2tk5eb5in87049h3alstn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

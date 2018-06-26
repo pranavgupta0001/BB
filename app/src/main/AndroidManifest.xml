@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.circle.prana.bb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".EntryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Generic.CommonDrawer"
+            android:label="@string/title_activity_common_drawer"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".LogIn.SignUp" />
+        <activity android:name=".CommonDrawer.HomeScreen" />
+        <activity
+            android:name=".CommonDrawer.Profile"
+            android:label="Profile" />
+        <activity
+            android:name=".Currency.SendMoney"
+            android:label="Send Money" />
+        <activity android:name=".UnderConstruction" />
+        <activity
+            android:name=".CommonDrawer.AboutUs"
+            android:label="About Us" />
+        <activity android:name=".CommonDrawer.Transactions" />
+        <activity android:name=".Currency.TransactionActivity"></activity>
+    </application>
+
+</manifest>
